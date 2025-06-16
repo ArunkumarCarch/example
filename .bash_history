@@ -63,3 +63,17 @@ git remote remove origin
 git remote add origin git@github.com:ArunkumarCarch/example.git
 git remote -v
 ls
+git add .
+git commit -m "Adding exapmle.py from Cloud Shell ti github"
+git push -u origin main
+ls
+python example2.py 
+ls
+git status
+git add example2.py 
+git commit -m "Adding example2.py file"
+git push
+ls
+python example3.py
+git init
+git add example3.py 

@@ -14,3 +14,9 @@ git init
 git remote add origin git@github.com:Arun_kumar_Carch/example.git 
 git init
 git add .
+git commit -am "Example file updated"
+git remote add origin git@github.com:Arun_kumar_Carch/example.git 
+git push -u origin main
+pwd
+ls
+git init

@@ -45,3 +45,21 @@ git remote add origin https://github.com/ArunkumarCarch/example.git
 git remote set-url origin git@github.com:ArunkumarCarch/example.git
 git add example.py
 git commit -m "Add example.py from Cloud Shell"
+git filter-repo --force --path .ssh/id_ed25519 --invert-paths
+echo ".ssh/" >> .gitignore
+git add .gitignore
+git commit -m "Ignore .ssh directory"
+git push -f origin main
+git remote -v
+git remote set-url origin git@github.com:Arun_kumar_Carch/example.git
+ssh -T git@github.com
+ls -l ~/.ssh
+ssh-keygen -t ed25519 -C "arun.carch.io@gmail.com"
+cat ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+git push -f origin main
+git remote -v
+git remote remove origin
+git remote add origin git@github.com:ArunkumarCarch/example.git
+git remote -v
+ls

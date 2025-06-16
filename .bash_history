@@ -36,3 +36,12 @@ git remote add origin git@github.com:Arun_kumar_Carch/example.git
 git remote set-url origin git@github.com:Arun_kumar_Carch/example.git
 git add example.py 
 git commit -m "Adding .py file to git from Cloud Shell"
+git commit -am "Adding .py file to git from Cloud Shell"
+git push -u origin main
+git init 
+ls
+git branch -M main
+git remote add origin https://github.com/ArunkumarCarch/example.git
+git remote set-url origin git@github.com:ArunkumarCarch/example.git
+git add example.py
+git commit -m "Add example.py from Cloud Shell"

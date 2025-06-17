@@ -108,3 +108,8 @@ ls
 git inti
 git init
 git remote add origin https://github.com/Cohesive-Architecture/arun-carch.git
+git add .
+git commit -m "Adding files"
+git branch -M main
+git push -u origin main
+git pull origin main --rebase

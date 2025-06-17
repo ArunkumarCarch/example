@@ -113,3 +113,13 @@ git commit -m "Adding files"
 git branch -M main
 git push -u origin main
 git pull origin main --rebase
+git add .
+git commit -m "Saving unstaged changes before rebase"
+git pull origin main --rebase
+git status
+git commit -a
+git add .
+ls
+git init
+git status
+git add .

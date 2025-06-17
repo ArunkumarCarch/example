@@ -75,3 +75,141 @@
 2025-06-17 09:43:43.124 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/arun_carch_io/arun-carch/.git/HEAD'
 2025-06-17 09:43:43.135 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/arun_carch_io/arun-carch/.git/config'
 2025-06-17 09:43:43.782 [info] > git check-ignore -v -z --stdin [2ms]
+2025-06-17 09:53:23.391 [info] > git config --get commit.template [8ms]
+2025-06-17 09:53:23.392 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-17 09:53:23.408 [info] > git status -z -uall [10ms]
+2025-06-17 09:53:23.409 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-06-17 09:53:23.424 [info] > git blame --root --incremental c24b693c0eb686e037fd005896e32fb20dbcc3a9 -- example3.py [3ms]
+2025-06-17 09:53:23.503 [info] > git ls-files --stage -- example3.py [2ms]
+2025-06-17 09:53:23.512 [info] > git cat-file -s dc244afa62ac26e93f53494dbd3a69977e63c658 [3ms]
+2025-06-17 09:53:23.598 [info] > git show --textconv :example3.py [2ms]
+2025-06-17 09:53:28.439 [info] > git config --get commit.template [8ms]
+2025-06-17 09:53:28.441 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-06-17 09:53:28.458 [info] > git status -z -uall [11ms]
+2025-06-17 09:53:28.459 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-17 09:53:29.150 [info] > git check-ignore -v -z --stdin [2ms]
+2025-06-17 09:53:29.346 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1092ms]
+2025-06-17 09:54:06.963 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1081ms]
+2025-06-17 09:54:49.110 [info] > git add -A -- . [39ms]
+2025-06-17 09:54:49.698 [info] > git show --textconv :.git/COMMIT_EDITMSG [9ms]
+2025-06-17 09:54:49.707 [info] > git ls-files --stage -- .git/COMMIT_EDITMSG [11ms]
+2025-06-17 09:54:49.714 [info] > git hash-object -t tree /dev/null [9ms]
+2025-06-17 09:54:49.714 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/arun_carch_io/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Farun_carch_io%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-06-17 09:54:49.723 [info] > git hash-object -t tree /dev/null [10ms]
+2025-06-17 09:54:49.723 [warning] [GitFileSystemProvider][stat] File not found - git:/home/arun_carch_io/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Farun_carch_io%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-06-17 09:54:50.018 [info] > git check-ignore -v -z --stdin [3ms]
+2025-06-17 09:54:58.808 [info] > git -c user.useConfigOnly=true commit --quiet [9690ms]
+2025-06-17 09:54:58.808 [info] Aborting commit due to empty commit message.
+2025-06-17 09:54:58.827 [info] > git config --get commit.template [11ms]
+2025-06-17 09:54:58.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-17 09:54:58.843 [info] > git status -z -uall [8ms]
+2025-06-17 09:54:58.844 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-17 09:54:58.868 [info] > git config --get commit.template [9ms]
+2025-06-17 09:54:58.870 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-06-17 09:54:58.885 [info] > git status -z -uall [8ms]
+2025-06-17 09:54:58.887 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-06-17 09:54:59.051 [info] > git show --textconv :example3.py [11ms]
+2025-06-17 09:54:59.052 [info] > git ls-files --stage -- example3.py [5ms]
+2025-06-17 09:54:59.062 [info] > git cat-file -s dc244afa62ac26e93f53494dbd3a69977e63c658 [2ms]
+2025-06-17 09:55:07.289 [info] > git config --get commit.template [10ms]
+2025-06-17 09:55:07.289 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-17 09:55:07.305 [info] > git status -z -uall [9ms]
+2025-06-17 09:55:07.306 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-17 09:55:17.321 [info] > git check-ignore -v -z --stdin [2ms]
+2025-06-17 09:55:49.439 [info] > git push -u origin main [2361ms]
+2025-06-17 09:55:49.440 [info] To github.com:Cohesive-Architecture/arun-carch.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:Cohesive-Architecture/arun-carch.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2025-06-17 09:55:49.456 [info] > git config --get commit.template [8ms]
+2025-06-17 09:55:49.458 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-06-17 09:55:49.474 [info] > git status -z -uall [10ms]
+2025-06-17 09:55:49.475 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-06-17 09:55:49.495 [info] > git config --get commit.template [9ms]
+2025-06-17 09:55:49.496 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-06-17 09:55:49.511 [info] > git status -z -uall [9ms]
+2025-06-17 09:55:49.512 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-17 09:56:18.597 [info] > git push -u origin main [2370ms]
+2025-06-17 09:56:18.597 [info] To github.com:Cohesive-Architecture/arun-carch.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:Cohesive-Architecture/arun-carch.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2025-06-17 09:56:18.612 [info] > git config --get commit.template [7ms]
+2025-06-17 09:56:18.613 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-06-17 09:56:18.628 [info] > git status -z -uall [8ms]
+2025-06-17 09:56:18.629 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-06-17 09:56:18.648 [info] > git config --get commit.template [7ms]
+2025-06-17 09:56:18.650 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-17 09:56:18.667 [info] > git status -z -uall [11ms]
+2025-06-17 09:56:18.668 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-17 09:56:36.494 [info] > git show --textconv :example3.py [7ms]
+2025-06-17 09:56:36.496 [info] > git ls-files --stage -- example3.py [3ms]
+2025-06-17 09:56:36.504 [info] > git cat-file -s dc244afa62ac26e93f53494dbd3a69977e63c658 [2ms]
+2025-06-17 09:56:40.009 [info] > git show --textconv :.git/COMMIT_EDITMSG [8ms]
+2025-06-17 09:56:40.010 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/arun_carch_io/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Farun_carch_io%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-06-17 09:56:40.010 [info] > git ls-files --stage -- .git/COMMIT_EDITMSG [2ms]
+2025-06-17 09:56:40.011 [warning] [GitFileSystemProvider][stat] File not found - git:/home/arun_carch_io/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Farun_carch_io%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-06-17 09:56:44.404 [info] > git -c user.useConfigOnly=true commit --quiet [5048ms]
+2025-06-17 09:56:44.405 [info] Aborting commit due to empty commit message.
+2025-06-17 09:56:44.416 [info] > git config --get commit.template [4ms]
+2025-06-17 09:56:44.425 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-17 09:56:44.441 [info] > git status -z -uall [7ms]
+2025-06-17 09:56:44.442 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-17 09:56:44.464 [info] > git config --get commit.template [8ms]
+2025-06-17 09:56:44.465 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-17 09:56:44.480 [info] > git status -z -uall [9ms]
+2025-06-17 09:56:44.482 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-06-17 09:56:44.638 [info] > git show --textconv :example3.py [9ms]
+2025-06-17 09:56:44.639 [info] > git ls-files --stage -- example3.py [3ms]
+2025-06-17 09:56:44.648 [info] > git cat-file -s dc244afa62ac26e93f53494dbd3a69977e63c658 [2ms]
+2025-06-17 09:56:52.892 [info] > git push -u origin main [2387ms]
+2025-06-17 09:56:52.892 [info] To github.com:Cohesive-Architecture/arun-carch.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:Cohesive-Architecture/arun-carch.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2025-06-17 09:56:52.907 [info] > git config --get commit.template [7ms]
+2025-06-17 09:56:52.909 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-17 09:56:52.923 [info] > git status -z -uall [8ms]
+2025-06-17 09:56:52.924 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-17 09:56:52.945 [info] > git config --get commit.template [8ms]
+2025-06-17 09:56:52.946 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-17 09:56:52.964 [info] > git status -z -uall [9ms]
+2025-06-17 09:56:52.965 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-17 09:58:12.883 [info] > git config --get commit.template [7ms]
+2025-06-17 09:58:12.884 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-17 09:58:12.897 [info] > git status -z -uall [7ms]
+2025-06-17 09:58:12.898 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-17 09:58:17.917 [info] > git config --get commit.template [8ms]
+2025-06-17 09:58:17.918 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-17 09:58:17.935 [info] > git status -z -uall [10ms]
+2025-06-17 09:58:17.936 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-06-17 10:01:52.611 [info] > git config --get commit.template [8ms]
+2025-06-17 10:01:52.612 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-17 10:01:52.626 [info] > git status -z -uall [7ms]
+2025-06-17 10:01:52.628 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-06-17 10:01:52.689 [info] > git ls-files --stage -- example3.py [2ms]
+2025-06-17 10:01:52.698 [info] > git cat-file -s dc244afa62ac26e93f53494dbd3a69977e63c658 [2ms]
+2025-06-17 10:01:52.763 [info] > git show --textconv :example3.py [3ms]
+2025-06-17 10:01:57.646 [info] > git config --get commit.template [8ms]
+2025-06-17 10:01:57.648 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-06-17 10:01:57.663 [info] > git status -z -uall [8ms]
+2025-06-17 10:01:57.665 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-06-17 10:02:22.451 [info] > git show --textconv :example4.py [10ms]
+2025-06-17 10:02:22.452 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/arun_carch_io/example4.py.git?%7B%22path%22%3A%22%2Fhome%2Farun_carch_io%2Fexample4.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-17 10:02:22.452 [info] > git ls-files --stage -- example4.py [4ms]
+2025-06-17 10:02:22.453 [warning] [GitFileSystemProvider][stat] File not found - git:/home/arun_carch_io/example4.py.git?%7B%22path%22%3A%22%2Fhome%2Farun_carch_io%2Fexample4.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-17 10:02:22.560 [info] > git check-ignore -v -z --stdin [2ms]
+2025-06-17 10:02:23.828 [info] > git blame --root --incremental c24b693c0eb686e037fd005896e32fb20dbcc3a9 -- example4.py [3ms]
+2025-06-17 10:02:23.828 [info] fatal: no such path example4.py in c24b693c0eb686e037fd005896e32fb20dbcc3a9

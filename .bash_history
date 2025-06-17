@@ -128,3 +128,9 @@ git push origin main
 git remote add originhttps://github.com/ArunkumarCarch/example.git
 git remote add origin https://github.com/ArunkumarCarch/example.git
 git commit -m "Adding example 4 file"
+git commit -am "Adding example 4 file"
+git push origin main
+git init
+git remote add origin https://github.com/ArunkumarCarch/example.git
+git remote remove origin
+git remote add origin https://github.com/ArunkumarCarch/example.git

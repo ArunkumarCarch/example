@@ -84,3 +84,7 @@ git remote add origin git@github.com:Cohesive-Architecture/arun-carch.git
 git remote -v
 cd ~/arun-carch
 ls
+git add .
+git commit -m "Adding example files from github to the cloud shell"
+git push origin main
+git pull origin main --rebase

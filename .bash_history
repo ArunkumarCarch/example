@@ -88,3 +88,10 @@ git add .
 git commit -m "Adding example files from github to the cloud shell"
 git push origin main
 git pull origin main --rebase
+git add .
+git commit -m "Adding example files from github to the cloud shell"
+git push origin main
+git push origin main --rebase
+git push origin main
+pwd
+ls

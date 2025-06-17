@@ -77,3 +77,10 @@ ls
 python example3.py
 git init
 git add example3.py 
+git commit -am "Adding example3.py file into github from google cloud shell"
+git push origin main
+git remote remove origin
+git remote add origin git@github.com:Cohesive-Architecture/arun-carch.git
+git remote -v
+cd ~/arun-carch
+ls

@@ -1,0 +1,29 @@
+2025-06-17 09:06:09.613 [info] Extension host with pid 1231 started
+2025-06-17 09:06:09.640 [error] Error: EEXIST: file already exists, open '/home/arun_carch_io/.codeoss/data/User/workspaceStorage/-50d123bc/vscode.lock'
+2025-06-17 09:06:09.657 [info] Lock '/home/arun_carch_io/.codeoss/data/User/workspaceStorage/-50d123bc/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-06-17 09:06:09.658 [info] Lock '/home/arun_carch_io/.codeoss/data/User/workspaceStorage/-50d123bc/vscode.lock': The pid 1226 appears to be gone.
+2025-06-17 09:06:09.658 [info] Lock '/home/arun_carch_io/.codeoss/data/User/workspaceStorage/-50d123bc/vscode.lock': Deleting a stale lock.
+2025-06-17 09:06:09.671 [info] Lock '/home/arun_carch_io/.codeoss/data/User/workspaceStorage/-50d123bc/vscode.lock': Lock acquired.
+2025-06-17 09:06:09.748 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
+2025-06-17 09:06:09.749 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-17 09:06:09.750 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2025-06-17 09:06:11.622 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-17 09:06:11.651 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-17 09:06:11.652 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-17 09:06:11.653 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-17 09:06:11.976 [error] Error: spawn /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-06-17 09:06:12.192 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onCommand:cloudshell.isAuthorized'
+2025-06-17 09:06:12.230 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-17 09:06:12.230 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-17 09:06:12.778 [info] Eager extensions activated
+2025-06-17 09:06:12.778 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-06-17 09:06:12.779 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-17 09:06:12.779 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-17 09:06:12.896 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-17 09:07:00.033 [error] unauthorized. cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-06-17 09:07:00.066 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-06-17 09:07:07.393 [error] unauthorized. cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-06-17 09:07:17.148 [error] unauthorized. cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}

@@ -1,0 +1,23 @@
+2025-06-16 13:25:27.092 [warning] Dir "/home/arun_carch_io/.pixi/envs" is not watchable (directory does not exist)
+2025-06-16 13:25:27.181 [info] Python interpreter path: /bin/python
+2025-06-16 13:25:27.288 [info] > pyenv which python
+2025-06-16 13:25:27.288 [info] cwd: .
+2025-06-16 13:25:31.885 [info] Starting Jedi language server for arun_carch_io.
+2025-06-16 13:25:44.866 [info] Discover tests for workspace name: arun_carch_io - uri: /home/arun_carch_io/example3.py
+2025-06-16 13:25:53.704 [info] Discover tests for workspace name: arun_carch_io - uri: /home/arun_carch_io/example3.py
+2025-06-16 13:25:57.268 [info] Discover tests for workspace name: arun_carch_io - uri: /home/arun_carch_io/example3.py
+2025-06-16 13:25:59.694 [info] Discover tests for workspace name: arun_carch_io - uri: /home/arun_carch_io/example3.py
+2025-06-16 13:26:01.635 [info] Discover tests for workspace name: arun_carch_io - uri: /home/arun_carch_io/example3.py
+2025-06-16 13:26:05.269 [info] Discover tests for workspace name: arun_carch_io - uri: /home/arun_carch_io/example3.py
+2025-06-16 13:26:08.641 [info] Discover tests for workspace name: arun_carch_io - uri: /home/arun_carch_io/example3.py
+2025-06-16 13:26:10.804 [info] Discover tests for workspace name: arun_carch_io - uri: /home/arun_carch_io/example3.py
+2025-06-16 13:26:17.407 [info] Discover tests for workspace name: arun_carch_io - uri: /home/arun_carch_io/example3.py
+2025-06-16 13:26:23.588 [info] Discover tests for workspace name: arun_carch_io - uri: /home/arun_carch_io/example3.py
+2025-06-16 13:26:30.423 [info] Discover tests for workspace name: arun_carch_io - uri: /home/arun_carch_io/example3.py
+2025-06-16 13:26:32.469 [info] Discover tests for workspace name: arun_carch_io - uri: /home/arun_carch_io/example3.py
+2025-06-16 13:26:34.359 [info] Discover tests for workspace name: arun_carch_io - uri: /home/arun_carch_io/example3.py
+2025-06-16 13:26:37.622 [info] Discover tests for workspace name: arun_carch_io - uri: /home/arun_carch_io/example3.py
+2025-06-16 13:27:58.037 [info] Discover tests for workspace name: arun_carch_io - uri: /home/arun_carch_io/example3.py
+2025-06-16 13:27:59.662 [info] Discover tests for workspace name: arun_carch_io - uri: /home/arun_carch_io/example3.py
+2025-06-16 13:29:00.123 [info] Discover tests for workspace name: arun_carch_io - uri: /home/arun_carch_io/example3.py
+2025-06-16 13:29:07.966 [info] Discover tests for workspace name: arun_carch_io - uri: /home/arun_carch_io/example3.py

@@ -95,3 +95,16 @@ git push origin main --rebase
 git push origin main
 pwd
 ls
+git add .
+git commit -m "Adding example files from github to the cloud shell"
+git pull origin main --rebase
+git push origin main
+git clone https://github.com/Cohesive-Architecture/arun-carch.git
+cd arun-carch
+https://github.com/Cohesive-Architecture/arun-carch
+https://github.com/Cohesive-Architecture/arun-carch.git
+pwd
+ls
+git inti
+git init
+git remote add origin https://github.com/Cohesive-Architecture/arun-carch.git

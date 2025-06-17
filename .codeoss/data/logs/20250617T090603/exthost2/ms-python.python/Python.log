@@ -1,0 +1,5 @@
+2025-06-17 09:39:51.805 [warning] Dir "/home/arun_carch_io/.pixi/envs" is not watchable (directory does not exist)
+2025-06-17 09:39:51.805 [info] Python interpreter path: /bin/python
+2025-06-17 09:39:52.029 [info] > pyenv which python
+2025-06-17 09:39:52.029 [info] cwd: .
+2025-06-17 09:39:53.563 [info] Starting Jedi language server for arun_carch_io.

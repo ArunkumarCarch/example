@@ -1,35 +1,31 @@
-2025-06-17 09:06:09.613 [info] Extension host with pid 1231 started
-2025-06-17 09:06:09.640 [error] Error: EEXIST: file already exists, open '/home/arun_carch_io/.codeoss/data/User/workspaceStorage/-50d123bc/vscode.lock'
-2025-06-17 09:06:09.657 [info] Lock '/home/arun_carch_io/.codeoss/data/User/workspaceStorage/-50d123bc/vscode.lock': Could not acquire lock, checking if the file is stale.
-2025-06-17 09:06:09.658 [info] Lock '/home/arun_carch_io/.codeoss/data/User/workspaceStorage/-50d123bc/vscode.lock': The pid 1226 appears to be gone.
-2025-06-17 09:06:09.658 [info] Lock '/home/arun_carch_io/.codeoss/data/User/workspaceStorage/-50d123bc/vscode.lock': Deleting a stale lock.
-2025-06-17 09:06:09.671 [info] Lock '/home/arun_carch_io/.codeoss/data/User/workspaceStorage/-50d123bc/vscode.lock': Lock acquired.
-2025-06-17 09:06:09.748 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
-2025-06-17 09:06:09.749 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
-2025-06-17 09:06:09.750 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
-2025-06-17 09:06:11.622 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
-2025-06-17 09:06:11.651 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
-2025-06-17 09:06:11.652 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
-2025-06-17 09:06:11.653 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
-2025-06-17 09:06:11.976 [error] Error: spawn /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python-env-tools/bin/pet ENOENT
+2025-06-17 09:39:49.195 [info] Extension host with pid 2586 started
+2025-06-17 09:39:49.206 [info] Lock '/home/arun_carch_io/.codeoss/data/User/workspaceStorage/-50d123bc/vscode.lock': Lock acquired.
+2025-06-17 09:39:49.347 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
+2025-06-17 09:39:49.348 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-17 09:39:49.348 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2025-06-17 09:39:51.039 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-17 09:39:51.057 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-17 09:39:51.058 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-17 09:39:51.058 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-17 09:39:51.296 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-17 09:39:51.296 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-17 09:39:51.476 [error] Error: spawn /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python-env-tools/bin/pet ENOENT
 	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
 	at onErrorNT (node:internal/child_process:483:16)
 	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-2025-06-17 09:06:12.192 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onCommand:cloudshell.isAuthorized'
-2025-06-17 09:06:12.230 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
-2025-06-17 09:06:12.230 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
-2025-06-17 09:06:12.778 [info] Eager extensions activated
-2025-06-17 09:06:12.778 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
-2025-06-17 09:06:12.779 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
-2025-06-17 09:06:12.779 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
-2025-06-17 09:06:12.896 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
-2025-06-17 09:07:00.033 [error] unauthorized. cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
-2025-06-17 09:07:00.066 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
-2025-06-17 09:07:07.393 [error] unauthorized. cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
-2025-06-17 09:07:17.148 [error] unauthorized. cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
-2025-06-17 09:39:41.255 [info] Extension host terminating: received terminate message from renderer
-2025-06-17 09:39:41.256 [info] Lock '/home/arun_carch_io/.codeoss/data/User/workspaceStorage/-50d123bc/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
-2025-06-17 09:39:41.317 [error] Canceled: Canceled
+2025-06-17 09:39:51.551 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onCommand:cloudshell.isAuthorized'
+2025-06-17 09:39:51.717 [info] Eager extensions activated
+2025-06-17 09:39:51.717 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-06-17 09:39:51.718 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-17 09:39:51.718 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-17 09:39:52.334 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-17 09:39:57.507 [error] unauthorized. cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-06-17 09:39:57.540 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-06-17 09:40:04.608 [error] unauthorized. cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-06-17 09:40:09.907 [error] unauthorized. cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-06-17 09:40:50.682 [info] Extension host terminating: received terminate message from renderer
+2025-06-17 09:40:50.682 [info] Lock '/home/arun_carch_io/.codeoss/data/User/workspaceStorage/-50d123bc/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-06-17 09:40:55.206 [error] Canceled: Canceled
     at new HR (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:118837)
     at i4.U (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:123448)
     at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:120942)
@@ -85,7 +81,63 @@
     at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
     at Socket.Readable.push (node:internal/streams/readable:392:5)
     at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
-2025-06-17 09:39:41.324 [error] Canceled: Canceled
+2025-06-17 09:40:55.207 [error] Canceled: Canceled
+    at new HR (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:118837)
+    at i4.U (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:123448)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:120942)
+    at vw.g (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:111:40983)
+    at vw.executeCommand (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:111:40487)
+    at r.registerCommand.description (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:111:39817)
+    at vw.h (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:111:41503)
+    at vw.g (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:111:40580)
+    at vw.executeCommand (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:111:40487)
+    at Object.executeCommand (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:30346)
+    at Ah.L [as value] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:214505)
+    at D.B (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at D.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+    at D.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+    at Object.g [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:237145)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:243463
+    at Array.forEach (<anonymous>)
+    at b.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:243449)
+    at iv.<anonymous> (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:8922)
+    at iv.dispose (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+    at iv.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:216989)
+    at iv.dispose (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+    at pi (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+    at file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:115:14994
+    at file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+    at Object.dispose (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at bV.eb (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:115:11921)
+    at file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:115:9876
+    at Array.map (<anonymous>)
+    at bV.$ (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:115:9864)
+    at bV.terminate (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:115:10107)
+    at oD.terminate (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:116:1434)
+    at es (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:197:5701)
+    at Ah.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:197:3862)
+    at D.B (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at D.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+    at Jn.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:9459)
+    at Km.A (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:12575)
+    at Ah.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:10995)
+    at D.B (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at D.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+    at M6.acceptChunk (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:7942)
+    at Ah.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:7228)
+    at D.B (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at D.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+    at AT.z (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:21747)
+    at AT.acceptFrame (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:21553)
+    at PT.n (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:20080)
+    at file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:17312
+    at Socket.t (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:15252)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-06-17 09:40:55.211 [error] Canceled: Canceled
     at new HR (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:118837)
     at i4.U (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:123448)
     at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:120942)
@@ -143,4 +195,4 @@
     at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
     at Socket.Readable.push (node:internal/streams/readable:392:5)
     at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
-2025-06-17 09:39:41.339 [info] Extension host with pid 1231 exiting with code 0
+2025-06-17 09:40:55.227 [info] Extension host with pid 2586 exiting with code 0
